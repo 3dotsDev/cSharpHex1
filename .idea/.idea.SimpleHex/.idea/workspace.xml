@@ -82,7 +82,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="CommandConsoleClient" type="DotNetProject" factoryName=".NET Project">
@@ -112,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598254726872</updated>
-      <workItem from="1598254730267" duration="12316000" />
+      <workItem from="1598254730267" duration="12401000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1598274771322</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598274771322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start">
+      <created>1598274939289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598274939289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,14 +257,14 @@
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
     <state x="4627" y="535" key="RiderGenerateDialog/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598259900188" />
-    <state x="4309" y="450" key="SettingsEditor" timestamp="1598274896597">
+    <state x="4309" y="450" key="SettingsEditor" timestamp="1598274981680">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
-    <state x="4309" y="450" key="SettingsEditor/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598274896597" />
-    <state x="4400" y="551" key="Vcs.Push.Dialog.v2" timestamp="1598274844460">
+    <state x="4309" y="450" key="SettingsEditor/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598274981680" />
+    <state x="4400" y="551" key="Vcs.Push.Dialog.v2" timestamp="1598274950290">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
-    <state x="4400" y="551" key="Vcs.Push.Dialog.v2/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598274844460" />
+    <state x="4400" y="551" key="Vcs.Push.Dialog.v2/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598274950290" />
     <state x="4463" y="386" width="672" height="678" key="search.everywhere.popup" timestamp="1598271038248">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hmuThWg1ce8ZJ1SuvKI6dNNnH2zIwro+3wh80x+yCiI4vxiaeXD1QQZ1Xn6z7UbW85EOHaLA7mAaQOHpkRlehg==",
+  "success": true,
+  "projectFilePath": "/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/RightDriven.csproj",
+  "expectedPackageFiles": [
+    "/Users/dalmaso/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.7/microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
+    "/Users/dalmaso/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.7/microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nfJB1gcyAAoe3HhLpd/r4fGZXMcI4ig8ZKuC60XojR3RVHpQ81h9/LcRBhLajhxk4vuRtAUK2H9Gnyi6GzfK5g==",
+  "success": true,
+  "projectFilePath": "/Users/dalmaso/RiderProjects/SimpleHex/CommandConsoleClient/CommandConsoleClient.csproj",
+  "expectedPackageFiles": [
+    "/Users/dalmaso/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.7/microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
+    "/Users/dalmaso/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.7/microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

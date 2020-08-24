@@ -1,0 +1,14 @@
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/bin/Debug/netcoreapp3.1/LeftDriver.deps.json
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/bin/Debug/netcoreapp3.1/LeftDriver.dll
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/bin/Debug/netcoreapp3.1/LeftDriver.pdb
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/bin/Debug/netcoreapp3.1/RightDriven.dll
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/bin/Debug/netcoreapp3.1/RightDriven.pdb
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/obj/Debug/netcoreapp3.1/LeftDriver.csprojAssemblyReference.cache
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/obj/Debug/netcoreapp3.1/LeftDriver.csproj.CoreCompileInputs.cache
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/obj/Debug/netcoreapp3.1/LeftDriver.AssemblyInfoInputs.cache
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/obj/Debug/netcoreapp3.1/LeftDriver.AssemblyInfo.cs
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/obj/Debug/netcoreapp3.1/LeftDriver.csproj.CopyComplete
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/obj/Debug/netcoreapp3.1/LeftDriver.dll
+/Users/dalmaso/RiderProjects/SimpleHex/LeftDriver/obj/Debug/netcoreapp3.1/LeftDriver.pdb

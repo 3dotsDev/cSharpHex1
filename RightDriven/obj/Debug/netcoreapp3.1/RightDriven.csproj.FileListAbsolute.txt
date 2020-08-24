@@ -1,0 +1,12 @@
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/bin/Debug/netcoreapp3.1/RightDriven.deps.json
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/bin/Debug/netcoreapp3.1/RightDriven.dll
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/bin/Debug/netcoreapp3.1/RightDriven.pdb
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/obj/Debug/netcoreapp3.1/RightDriven.csprojAssemblyReference.cache
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/obj/Debug/netcoreapp3.1/RightDriven.csproj.CoreCompileInputs.cache
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/obj/Debug/netcoreapp3.1/RightDriven.AssemblyInfoInputs.cache
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/obj/Debug/netcoreapp3.1/RightDriven.AssemblyInfo.cs
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/obj/Debug/netcoreapp3.1/RightDriven.csproj.CopyComplete
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/obj/Debug/netcoreapp3.1/RightDriven.dll
+/Users/dalmaso/RiderProjects/SimpleHex/RightDriven/obj/Debug/netcoreapp3.1/RightDriven.pdb

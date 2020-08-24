@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AHzy6ISJsRb49iOJAFw/6+cRRNfWb6uLeRvEsszQ1Ssi3RNTChAAfLPL9lY5+4ky5BlCq7yd6RwKDKDgs16C3g==",
+  "success": true,
+  "projectFilePath": "/Users/dalmaso/RiderProjects/SimpleHex/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/dalmaso/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.7/microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
+    "/Users/dalmaso/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.7/microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

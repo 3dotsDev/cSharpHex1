@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace CommandRestClient.Controllers
 {
     [ApiController]
-    [Microsoft.AspNetCore.Mvc.Route("api/[controller]")]
+    [Microsoft.AspNetCore.Mvc.Route("api/customer")]
     public class CustomerController : ControllerBase
     {
         private readonly ICustomerController _hexController;
@@ -25,7 +25,8 @@ namespace CommandRestClient.Controllers
             return _hexController.List();
         }
 
-        [HttpGet("/{id:int}")]
+        //>> http://localhost:5000/api/customer/1
+        [HttpGet("{id}")]
         public Customer GetCustomerById(int id)
         {
             return _hexController.GetById(id);
@@ -38,7 +39,8 @@ namespace CommandRestClient.Controllers
             return _hexController.Register(lastname, firstName);
         }
 
-        [HttpPatch("/{id:int}/up")]
+        [HttpPatch]
+        [Microsoft.AspNetCore.Mvc.Route("api/customer/{id}/up")]
         public IActionResult UpgradeCustomer(int id)
         {
             if (_hexController.Upgrade(id))
@@ -49,7 +51,8 @@ namespace CommandRestClient.Controllers
             return Ok();
         }
 
-        [HttpPatch("/{id:int}/down")]
+        [HttpPatch]
+        [Microsoft.AspNetCore.Mvc.Route("api/customer/{id}/down")]
         public IActionResult DowngradeCustomer(int id)
         {
             if (_hexController.Downgrade(id))

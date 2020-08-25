@@ -13,12 +13,6 @@ namespace CommandConsoleClient
             ICommand command = iocProvider.GetService<ICommand>();
             Start(command);
         }
-        
-        // static void Main(string[] args) // Todo KEV funktioniert nicht einfach als Beispiel
-        // {
-        //     ServiceProvider iocProvider = CustomerControllerModule.ConfigureIocContainer();
-        //     ICustomerController controller = iocProvider.GetService<ICustomerController>();
-        // }
 
         public static void Start(ICommand commandConsole)
         {

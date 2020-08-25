@@ -29,25 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a7f03a-7773-4fe4-b9d8-46ef245cf423" name="Default Changelist" comment="cleanup">
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/CommandRestClient.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/Controllers/CustomerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Services/ICustomerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Services/ICustomerService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeftDriver/Adapter/Console/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeftDriver/Adapter/Console/Command.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeftDriver/Adapter/Console/CommandConsoleModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeftDriver/Adapter/Console/CommandConsoleModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeftDriver/Adapter/Rest/CustomerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeftDriver/Adapter/Rest/CustomerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeftDriver/Adapter/Rest/CustomerControllerModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeftDriver/Adapter/Rest/CustomerControllerModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeftDriver/Adapter/Rest/ICustomerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeftDriver/Adapter/Rest/ICustomerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RightDriven/Adapter/Repository/InMemory/InMemoryCustomerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RightDriven/Adapter/Repository/InMemory/InMemoryCustomerRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleHex.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHex.sln" afterDir="false" />
+    <list default="true" id="77a7f03a-7773-4fe4-b9d8-46ef245cf423" name="Default Changelist" comment="Adding RestController with DI">
+      <change beforePath="$PROJECT_DIR$/CommandConsoleClient/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommandConsoleClient/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +66,6 @@
         <option value="$PROJECT_DIR$/LeftDriver/Adapter/Rest/ICustommerController.cs" />
         <option value="$PROJECT_DIR$/LeftDriver/Adapter/Console/CommandConsoleModule.cs" />
         <option value="$PROJECT_DIR$/RightDriven/Adapter/Repository/Postgresql/PostgresqlRepository.cs" />
-        <option value="$PROJECT_DIR$/CommandConsoleClient/Program.cs" />
         <option value="$PROJECT_DIR$/Domain/Services/ICustomerService.cs" />
         <option value="$PROJECT_DIR$/LeftDriver/Adapter/Rest/ICustomerController.cs" />
         <option value="$PROJECT_DIR$/LeftDriver/Adapter/Rest/CustomerController.cs" />
@@ -93,6 +75,7 @@
         <option value="$PROJECT_DIR$/CommandRestClient/Startup.cs" />
         <option value="$PROJECT_DIR$/CommandRestClient/Controllers/CustomerController.cs" />
         <option value="$PROJECT_DIR$/CommandRestClient/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/CommandConsoleClient/Program.cs" />
       </list>
     </option>
   </component>
@@ -203,7 +186,7 @@
       <updated>1598254726872</updated>
       <workItem from="1598254730267" duration="13525000" />
       <workItem from="1598333075579" duration="5745000" />
-      <workItem from="1598347330679" duration="3660000" />
+      <workItem from="1598347330679" duration="3705000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1598274771322</created>
@@ -240,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598342189222</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding RestController with DI">
+      <created>1598353561006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598353561006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +267,8 @@
     <MESSAGE value="Start" />
     <MESSAGE value="erweiterung" />
     <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <MESSAGE value="Adding RestController with DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding RestController with DI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3302" y="863" key="#Path_mapping" timestamp="1598351455775">
@@ -384,10 +375,10 @@
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
     <state x="2582" y="548" width="1758" height="791" key="SettingsEditor/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598351459134" />
-    <state x="4400" y="551" key="Vcs.Push.Dialog.v2" timestamp="1598342295223">
+    <state x="4400" y="551" key="Vcs.Push.Dialog.v2" timestamp="1598353566364">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
-    <state x="4400" y="551" key="Vcs.Push.Dialog.v2/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598342295223" />
+    <state x="4400" y="551" key="Vcs.Push.Dialog.v2/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598353566364" />
     <state x="4616" y="733" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598342289943">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>

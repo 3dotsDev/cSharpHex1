@@ -49,7 +49,11 @@
             <e p="CommandConsoleUtil.cs" t="Include" />
             <e p="ICommand.cs" t="Include" />
           </e>
-          <e p="Rest" t="Include" />
+          <e p="Rest" t="Include">
+            <e p="CustomerController.cs" t="Include" />
+            <e p="CustomerControllerModule.cs" t="Include" />
+            <e p="ICustomerController.cs" t="Include" />
+          </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="LeftDriver.csproj" t="IncludeRecursive" />
@@ -65,8 +69,13 @@
       <e p="RightDriven" t="IncludeRecursive">
         <e p="Adapter" t="Include">
           <e p="Repository" t="Include">
-            <e p="InMemoryCustomerRepository.cs" t="Include" />
-            <e p="RepositoryUtils.cs" t="Include" />
+            <e p="InMemory" t="Include">
+              <e p="InMemoryCustomerRepository.cs" t="Include" />
+              <e p="RepositoryUtils.cs" t="Include" />
+            </e>
+            <e p="Postgresql" t="Include">
+              <e p="PostgresqlRepository.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />

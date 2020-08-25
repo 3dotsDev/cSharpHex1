@@ -7,13 +7,7 @@
       <e p="CommandConsoleClient" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="CommandConsoleClient.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="CommandConsoleClient.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="Domain" t="IncludeRecursive">
@@ -26,13 +20,7 @@
         <e p="Exceptions" t="Include">
           <e p="CustomerNotFoundException.cs" t="Include" />
         </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="Domain.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Repository" t="Include">
           <e p="ICustomerRepository.cs" t="Include" />
         </e>
@@ -57,13 +45,7 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="LeftDriver.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="LeftDriver.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="RightDriven" t="IncludeRecursive">
@@ -79,13 +61,7 @@
           </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="RightDriven.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="RightDriven.csproj" t="IncludeRecursive" />
       </e>
       <e p="SimpleHex.sln" t="IncludeFlat" />

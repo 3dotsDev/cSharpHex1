@@ -5,7 +5,7 @@ using Domain.BusinessObjects;
 using Domain.Exceptions;
 using Domain.Repository;
 
-namespace RightDriven.Adapter.Repository
+namespace RightDriven.Adapter.Repository.InMemory
 {
     public class InMemoryCustomerRepository : ICustomerRepository
     {

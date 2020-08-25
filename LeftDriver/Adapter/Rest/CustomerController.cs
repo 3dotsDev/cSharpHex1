@@ -1,3 +1,7 @@
+#nullable enable
+using System;
+using System.Collections.Generic;
+using Domain.BusinessObjects;
 using Domain.Services;
 
 namespace LeftDriver.Adapter.Rest
@@ -7,34 +11,60 @@ namespace LeftDriver.Adapter.Rest
         private readonly ICustomerService _customerService;
 
         //DI
-        public CustomerController(ICustomerService customerService) //Todo KEV  gleicher Service ( Domain bleibt bestehen )
+        public
+            CustomerController(ICustomerService customerService) //Todo KEV  gleicher Service ( Domain bleibt bestehen )
         {
             _customerService = customerService;
         }
-        
-        public void List()
+
+        public IEnumerable<Customer> List()
         {
-            throw new System.NotImplementedException();
+            return _customerService.GetAllCustomers();
         }
 
-        public void Register()
+        public Customer? GetById(int customerId)
         {
-            throw new System.NotImplementedException();
+            return _customerService.FindCustomerById(customerId);
         }
 
-        public void Upgrade()
+        public Customer? Register(string lastName, string firstName)
         {
-            throw new System.NotImplementedException();
+            Customer customer = new Customer();
+            customer.LastName = lastName;
+            customer.FirstName = firstName;
+            return _customerService.RegisterCustomer(customer);
         }
 
-        public void Downgrade()
+        public bool Upgrade(int customerId)
         {
-            throw new System.NotImplementedException();
+            Customer? customer = _customerService.FindCustomerById(customerId);
+            if (customer == null)
+            {
+                return false;
+            }
+
+            if (_customerService.UpgradeCustomer(customer) == null)
+            {
+                return false;
+            }
+
+            return true;
         }
 
-        public void Info()
+        public bool Downgrade(int customerId)
         {
-            throw new System.NotImplementedException();
+            Customer? customer = _customerService.FindCustomerById(customerId);
+            if (customer == null)
+            {
+                return false;
+            }
+
+            if (_customerService.DownGradeCustomer(customer) == null)
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

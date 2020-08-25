@@ -3,6 +3,7 @@ using Domain.Repository;
 using Domain.Services;
 using Microsoft.Extensions.DependencyInjection;
 using RightDriven.Adapter.Repository;
+using RightDriven.Adapter.Repository.InMemory;
 
 namespace LeftDriver.Adapter.Console
 {

@@ -62,7 +62,7 @@ namespace LeftDriver.Adapter.Console
                 {
                     try
                     {
-                        Customer updatedCustomer = _customerService.UpgradeCustomer(customer);
+                        Customer? updatedCustomer = _customerService.UpgradeCustomer(customer);
                         System.Console.WriteLine("Customer upgrade successful with the following : ");
                         CommandConsoleUtil.PrintCustomer(updatedCustomer);
                     }
@@ -99,7 +99,7 @@ namespace LeftDriver.Adapter.Console
                 {
                     try
                     {
-                        Customer updatedCustomer = _customerService.DownGradeCustomer(customer);
+                        Customer? updatedCustomer = _customerService.DownGradeCustomer(customer);
                         System.Console.WriteLine("Customer downgrade successful with the following : ");
                         CommandConsoleUtil.PrintCustomer(updatedCustomer);
                     }

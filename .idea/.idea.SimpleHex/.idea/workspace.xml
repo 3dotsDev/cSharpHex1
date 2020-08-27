@@ -30,12 +30,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a7f03a-7773-4fe4-b9d8-46ef245cf423" name="Default Changelist" comment="ergaenzung im RestService... Route auf die Subs funktioniert noch nicht so ganz">
-      <change afterPath="$PROJECT_DIR$/CommandRestClient/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="77a7f03a-7773-4fe4-b9d8-46ef245cf423" name="Default Changelist" comment="Umstellung auf Linux C">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleHex/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommandRestClient/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CommandRestClient/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +253,8 @@
       <workItem from="1598362048149" duration="4645000" />
       <workItem from="1598381652830" duration="7297000" />
       <workItem from="1598428192475" duration="193000" />
-      <workItem from="1598428406203" duration="2783000" />
+      <workItem from="1598428406203" duration="2946000" />
+      <workItem from="1598502792243" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1598274771322</created>
@@ -314,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598354349736</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dockersupport hinzugefuegt">
+      <created>1598431715264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598431715264</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +359,8 @@
     <MESSAGE value="Adding RestController with DI" />
     <MESSAGE value="Remove DummyStub im CommandConsoleClient" />
     <MESSAGE value="ergaenzung im RestService... Route auf die Subs funktioniert noch nicht so ganz" />
-    <option name="LAST_COMMIT_MESSAGE" value="ergaenzung im RestService... Route auf die Subs funktioniert noch nicht so ganz" />
+    <MESSAGE value="Dockersupport hinzugefuegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockersupport hinzugefuegt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2739" y="807" key="#Docker" timestamp="1598428294166">
@@ -365,10 +371,10 @@
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
     <state x="3302" y="863" key="#Path_mapping/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598351455775" />
-    <state x="3575" y="699" key="#Port_bindings" timestamp="1598431486662">
+    <state x="3575" y="699" key="#Port_bindings" timestamp="1598503522488">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
-    <state x="3575" y="699" key="#Port_bindings/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598431486662" />
+    <state x="3575" y="699" key="#Port_bindings/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598503522488" />
     <state x="3417" y="737" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598430746966">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
@@ -475,10 +481,10 @@
     </state>
     <state x="350" y="197" width="900" height="722" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1598381628771" />
     <state x="2582" y="548" width="1758" height="791" key="SettingsEditor/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598429336383" />
-    <state x="4400" y="551" key="Vcs.Push.Dialog.v2" timestamp="1598354354586">
+    <state x="4400" y="551" key="Vcs.Push.Dialog.v2" timestamp="1598431723180">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
-    <state x="4400" y="551" key="Vcs.Push.Dialog.v2/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598354354586" />
+    <state x="4400" y="551" key="Vcs.Push.Dialog.v2/1920.23.3840.1577/0.23.1920.1177@1920.23.3840.1577" timestamp="1598431723180" />
     <state x="3625" y="643" width="795" height="522" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1598431087150">
       <screen x="1920" y="23" width="3840" height="1577" />
     </state>
